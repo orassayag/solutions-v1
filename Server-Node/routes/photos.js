@@ -1,5 +1,6 @@
 const { parsePhotos } = require('../models/photo');
-const { getPhotosAPI } = require('../api/api');
+const { coreGetPhotosAPI, coreGetPhotosFile } = require('../core/photos');
+// const { getPhotosAPI } = require('../api/api');
 // const { getPhotosFile } = require('../api/api');
 const express = require('express');
 const router = express.Router();
@@ -9,11 +10,11 @@ const getAllPhotos = async (count) => {
     // Get all the photos from the server.
     let response = null;
     try {
-        response = await getPhotosAPI(count);
-        //response = await getPhotosFile(count);
+        response = await coreGetPhotosAPI(count);
+        //response = await coreGetPhotosFile(count);
 
     } catch (err) {
-        return res.status(400)(`Failed to get all photos`, err);
+        throw Error(err);
     }
 
     let allPhotos = null;

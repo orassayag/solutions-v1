@@ -16,6 +16,7 @@
     "express": "^4.16.3",
     "express-async-errors": "^3.0.0",
     "moment": "^2.22.2",
+    "node-cache": "^4.2.0",
     "winston": "^2.4.0"
   }
 }
