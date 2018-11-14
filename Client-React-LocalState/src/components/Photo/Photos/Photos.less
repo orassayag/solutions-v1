@@ -1,0 +1,64 @@
+.recent-property {
+    padding-bottom: 65px;
+    min-height: 500px;
+    .page-title {
+        &.search {
+            padding-top: 20px;
+            &.not-found {
+                padding-top: 55px;
+            }
+            p {
+                font-size: 24px;
+                display: inline-block;
+                -ms-text-overflow: ellipsis;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                width: 100%;
+                padding-bottom: 0px;
+            }
+            .count-result {
+                font-size: 13px;
+                margin: 0px;
+                padding: 0px;
+                padding-bottom: 25px;
+                line-height: 12px;
+            }
+            &.error {
+                color: #d9534f;
+                padding-top: 55px;
+            }
+        }
+    }
+    .content-area {
+        background-color: #ffffff;
+        .container {
+            clear: both;
+            .property-th-list {
+                margin-left: -9px;
+            }
+            .slidedown {
+                margin-top: 0px;
+                padding: 5px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .recent-property {
+        min-height: 700px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .recent-property {
+        min-height: 790px;
+    }
+}
+
+@media (min-width: 969px) and (max-width: 1169px) {
+    .recent-property {
+        min-height: 770px;
+    }
+}
