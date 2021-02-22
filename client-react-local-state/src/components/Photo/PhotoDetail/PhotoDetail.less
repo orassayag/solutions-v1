@@ -1,0 +1,147 @@
+.result-label {
+    vertical-align: top;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.result-value {
+    vertical-align: top;
+    margin-left: 10px;
+    display: inline-block;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    a {
+        &:hover {
+            color: #d27e04;
+            -webkit-transition: none;
+            transition: none;
+        }
+    }
+
+    &.result-dynamic {
+        width: 78%;
+
+        a {
+            text-decoration: underline;
+            display: inline-block;
+            -ms-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+
+    &.result-image {
+        margin-left: 0px;
+        min-height: 150px;
+        width: 100%;
+
+        img {
+            width: auto;
+            height: auto;
+            min-width: 100%;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .result-value {
+        &.result-dynamic {
+            width: 75%;
+        }
+
+        &.result-image {
+            width: 99%;
+            min-height: 150px;
+
+            img {
+                min-width: 100%;
+                min-height: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .result-value {
+        &.result-dynamic {
+            width: 72%;
+        }
+
+        &.result-image {
+            width: 99%;
+
+            img {
+                min-width: 100%;
+                min-height: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .result-value {
+        &.result-dynamic {
+            width: 67%;
+        }
+
+        &.result-dynamic-small {
+            width: 40%;
+        }
+
+        &.result-image {
+            width: 99%;
+            min-height: 50px;
+
+            img {
+                min-width: 100%;
+                min-height: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 969px) and (max-width: 1169px) {
+    .result-value {
+        &.result-dynamic {
+            width: 67%;
+        }
+
+        &.result-dynamic-small {
+            width: 58%;
+        }
+
+        &.result-image {
+            width: 99%;
+            min-height: 130px;
+
+            img {
+                min-width: 100%;
+                min-height: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 1170px) and (max-width: 1205px) {
+    .result-value {
+        &.result-dynamic {
+            width: 72%;
+        }
+
+        &.result-image {
+            width: 99%;
+            min-height: 130px;
+
+            img {
+                min-width: 100%;
+                min-height: 100%;
+            }
+        }
+    }
+}

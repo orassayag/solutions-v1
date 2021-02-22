@@ -1,7 +1,6 @@
 # Solution V1
 
-Built in November 2018.
-A template for both client and server project in React.js and Node.js with simple REST API with Express with couple of routes to read items from JSON file / 3 party URL API and in REACT to display the items fetched from the API. 
+Built in November 2018. A template for both client and server project in React.js and Node.js with simple REST API with Express with couple of routes to read items from JSON file / 3 party URL API and in REACT to display the items fetched from the API.
 
 ## Getting Started
 
@@ -24,10 +23,14 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
-## Authors
+## Author
 
 * **Or Assayag** - *Initial work* - [orassayag](https://github.com/orassayag)
+* Or Assayag <orassayag@gmail.com>
+* GitHub: https://github.com/orassayag
+* StackOverFlow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
+* LinkedIn: https://il.linkedin.com/in/orassayag
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This application has UNLICENSED License.

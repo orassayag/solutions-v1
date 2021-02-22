@@ -6,20 +6,20 @@ const cache = new CacheService(ttl); // Create a new cache service instance
 
 const coreGetPhotosAPI = (count) => {
     return cache.get('photos', getPhotosAPI.bind(count))
-    .then((result) => {
-      return result;
-    }).catch(err => {
-        throw Error(err);
-    });
+        .then((result) => {
+            return result;
+        }).catch(err => {
+            throw Error(err);
+        });
 };
 
 const coreGetPhotosFile = (count) => {
     return cache.get('photos', getPhotosFile.bind(count))
-    .then((result) => {
-      return result;
-    }).catch(err => {
-        throw Error(err);
-    });
+        .then((result) => {
+            return result;
+        }).catch(err => {
+            throw Error(err);
+        });
 };
 
 module.exports = {

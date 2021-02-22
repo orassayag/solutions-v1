@@ -15,7 +15,7 @@ React.js
 -Page that display items responsive from the node.js API / API third party. *
 -Page with form and validation. *
 -Change the display of items of image + details. *
--Change bind logic *, Proptype order *, default values *, change from "ClickHandler" to "handleClick" *, indexs of files *, fix spell mistakes. *
+-Change bind logic *, Proptype order *, default values *, change from "ClickHandler" to "handleClick" *, indexes of files *, fix spell mistakes. *
 -Add component child of full details of photo. *
 -Change logo to default one. *
 -Copy a finale version to create version with Redux saga.
