@@ -1,6 +1,6 @@
 # Solution V1
 
-Built in November 2018. A template for both client and server projects in React.js and Node.js with a simple REST API with Express with a couple of routes to read items from JSON file / 3 party URL API and in React.js to display the items fetched from the API.
+Built in November 2018. A template for both client and server projects in React.js and Node.js with a simple REST API with Express with a couple of routes to read items from JSON file / third party URL API and in React.js to display the items fetched from the API.
 
 ## Getting Started
 
