@@ -68,7 +68,7 @@ const Modal = (props) => {
     );
 };
 
-// Set the PropTypes validations and default values.
+// Set the PropTypes validators and default values.
 Modal.propTypes = propTypes;
 Modal.defaultProps = defaultProps;
 

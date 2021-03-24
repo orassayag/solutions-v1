@@ -24,12 +24,12 @@ class PhotoPageDetails extends Component {
     componentDidMount() {
         let id = this.props.match.params.id;
         if (!id) {
-            throw new Error('Missing photo id');
+            throw new Error('Missing photo Id.');
         }
 
         id = Number(id);
         if (!id || isNaN(id)) {
-            throw new Error('Invalid photo id');
+            throw new Error('Invalid photo Id.');
         }
 
         getPhotoById(id)
@@ -88,7 +88,7 @@ class PhotoPageDetails extends Component {
     }
 }
 
-// Set the PropTypes validations and default values.
+// Set the PropTypes validators and default values.
 PhotoPageDetails.propTypes = propTypes;
 PhotoPageDetails.defaultProps = defaultProps;
 

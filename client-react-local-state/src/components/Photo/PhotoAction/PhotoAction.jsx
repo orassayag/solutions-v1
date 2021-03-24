@@ -33,7 +33,7 @@ const PhotoAction = (props) => {
     );
 };
 
-// Set the PropTypes validations and default values.
+// Set the PropTypes validators and default values.
 PhotoAction.propTypes = propTypes;
 PhotoAction.defaultProps = defaultProps;
 

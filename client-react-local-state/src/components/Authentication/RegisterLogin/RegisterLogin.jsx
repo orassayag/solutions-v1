@@ -88,7 +88,7 @@ const RegisterLogin = (props) => {
     );
 };
 
-// Set the PropTypes validations and default values.
+// Set the PropTypes validators and default values.
 RegisterLogin.propTypes = propTypes;
 RegisterLogin.defaultProps = defaultProps;
 

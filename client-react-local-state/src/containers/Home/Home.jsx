@@ -52,7 +52,7 @@ class Home extends Component {
             });
     }
 
-    // To avoid any leak of memory during first load of the photos, while user can redirect to other page while
+    // To avoid any leak of memory during the first load of the photos, while the user can redirect to another page while
     // settimeout is still running (in production by axios), need to clear the timeout (in development).
     componentWillUnmount() {
         if (this.generatePhotosTimeout) {
@@ -82,7 +82,7 @@ class Home extends Component {
             }
         }
         else {
-            // If photoId doesn't exists, the user probable clicked on the X button on the modal to close it.
+            // If photoId doesn't exist, the user probably clicked on the X button on the modal to close it.
             addPhotoData.showAddPhotoModal = false;
         }
 

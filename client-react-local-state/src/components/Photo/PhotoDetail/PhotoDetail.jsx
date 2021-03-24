@@ -60,7 +60,7 @@ const PhotoDetail = (props) => {
     );
 };
 
-// Set the PropTypes validations and default values.
+// Set the PropTypes validators and default values.
 PhotoDetail.propTypes = propTypes;
 PhotoDetail.defaultProps = defaultProps;
 

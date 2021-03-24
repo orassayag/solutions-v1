@@ -23,7 +23,7 @@ const defaultProps = {
 };
 
 const Photo = (props) => {
-    // Manually validate parameters just in case. If any of them is missing - don't print the photo data, but no need to throw error.
+    // Manually validate parameters just in case. If any of them is missing - don't print the photo data, but no need to throw an error.
     if (!props.albumId || !props.id || !props.title || !props.url || !props.thumbnailUrl) {
         return null;
     }
@@ -87,7 +87,7 @@ const Photo = (props) => {
     );
 };
 
-// Set the PropTypes validations and default values.
+// Set the PropTypes validators and default values.
 Photo.propTypes = propTypes;
 Photo.defaultProps = defaultProps;
 

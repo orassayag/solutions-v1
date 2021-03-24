@@ -29,7 +29,7 @@ const NavigationItem = (props) => {
     );
 };
 
-// Set the PropTypes validations and default values.
+// Set the PropTypes validators and default values.
 NavigationItem.propTypes = propTypes;
 NavigationItem.defaultProps = defaultProps;
 

@@ -9,7 +9,7 @@ export const formatDate = (date) => {
 };
 
 // Get creation year for the footer's title.
-// If the current year is passed, will display the creation year until current year.
+// If the current year is passed, will display the creation year until the current year.
 export const getCreationYear = () => {
     const yearsData = {
         creationYear: 2018,
@@ -24,7 +24,7 @@ export const getCreationYear = () => {
     return yearsData.result;
 };
 
-// Merges 2 classes together if given condition is true.
+// Merges 2 classes together if the given condition is true.
 export const generateClassName = (condition, originalClassName, newClassName) => {
     let resultClass = originalClassName;
     if (condition) {

@@ -43,7 +43,7 @@ const TextBox = (props) => {
     );
 };
 
-// Set the PropTypes validations and default values.
+// Set the PropTypes validators and default values.
 TextBox.propTypes = propTypes;
 TextBox.defaultProps = defaultProps;
 

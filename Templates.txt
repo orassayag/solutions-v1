@@ -1,24 +1,23 @@
 Node.js
 -------
 -Build a project with: *
--API call to call to an API third party and parse to return JSON to classes and return it. *
--API call to call to json file and parse to return JSON to classes and return it. *
+-API call to call an API third party and parse to return JSON to classes and return it. *
+-API call to call a json file and parse to return JSON to classes and return it. *
 -Cache the classes for the next time. *
--API call to get specific element by ID. *
+-API call to get a specific element by ID. *
 -TextFile with API URLs tests to test the API. *
--// ToDo: Write test file with API calles, like the compressor in Fiddler (take links from there). *
+-// ToDo: Write a test file with API calls, like the compressor in Fiddler (take links from there). *
 
 React.js
 --------
 -Build a project with: *
 -Responsive Header + Footer. *
--Page that display items responsive from the node.js API / API third party. *
+-Page that displays items responsive from the node.js API / API third party. *
 -Page with form and validation. *
 -Change the display of items of image + details. *
 -Change bind logic *, Proptype order *, default values *, change from "ClickHandler" to "handleClick" *, indexes of files *, fix spell mistakes. *
 -Add component child of full details of photo. *
 -Change logo to default one. *
--Copy a finale version to create version with Redux saga.
--After created copy of this client, Create another copy and remove the redux packages from package.json.
-
+-Copy a final version to create a version with Redux saga.
+-After creating a copy of this client, Create another copy and remove the redux packages from package.json.
 -Upload All to GitHub + Backups + DiskOnKey.

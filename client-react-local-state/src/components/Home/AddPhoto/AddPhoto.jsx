@@ -52,7 +52,7 @@ const AddPhoto = (props) => {
     );
 };
 
-// Set the PropTypes validations and default values.
+// Set the PropTypes validators and default values.
 AddPhoto.propTypes = propTypes;
 AddPhoto.defaultProps = defaultProps;
 

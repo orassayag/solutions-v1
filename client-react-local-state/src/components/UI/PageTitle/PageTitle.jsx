@@ -30,7 +30,7 @@ const PageTitle = (props) => {
     );
 };
 
-// Set the PropTypes validations and default values.
+// Set the PropTypes validators and default values.
 PageTitle.propTypes = propTypes;
 PageTitle.defaultProps = defaultProps;
 

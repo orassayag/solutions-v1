@@ -32,7 +32,7 @@ const SubmitButton = (props) => {
     );
 };
 
-// Set the PropTypes validations and default values.
+// Set the PropTypes validators and default values.
 SubmitButton.propTypes = propTypes;
 SubmitButton.defaultProps = defaultProps;
 

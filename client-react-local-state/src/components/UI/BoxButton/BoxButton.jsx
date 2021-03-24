@@ -36,7 +36,7 @@ const BoxButton = (props) => {
     );
 };
 
-// Set the PropTypes validations and default values.
+// Set the PropTypes validators and default values.
 BoxButton.propTypes = propTypes;
 BoxButton.defaultProps = defaultProps;
 

@@ -50,9 +50,9 @@ export const validateUrl = (value) => {
 
     const regexExpression = new RegExp(
         '^' +
-        // protocol identifier
+        // Protocol identifier.
         '(?:(?:https?|ftp)://)' +
-        // user:pass authentication
+        // User:pass authentication.
         '(?:\\S+(?::\\S*)?@)?' +
         '(?:' +
         // IP address exclusion
@@ -69,18 +69,18 @@ export const validateUrl = (value) => {
         '(?:\\.(?:1?\\d{1,2}|2[0-4]\\d|25[0-5])){2}' +
         '(?:\\.(?:[1-9]\\d?|1\\d\\d|2[0-4]\\d|25[0-4]))' +
         '|' +
-        // host name
+        // Host name.
         '(?:(?:[a-z\\u00a1-\\uffff0-9]-*)*[a-z\\u00a1-\\uffff0-9]+)' +
-        // domain name
+        // Domain name.
         '(?:\\.(?:[a-z\\u00a1-\\uffff0-9]-*)*[a-z\\u00a1-\\uffff0-9]+)*' +
-        // TLD identifier
+        // TLD identifier.
         '(?:\\.(?:[a-z\\u00a1-\\uffff]{2,}))' +
-        // TLD may end with dot
+        // TLD may end with a dot.
         '\\.?' +
         ')' +
-        // port number
+        // Port number.
         '(?::\\d{2,5})?' +
-        // resource path
+        // Resource path.
         '(?:[/?#]\\S*)?' +
         '$', 'i'
     );
@@ -97,7 +97,6 @@ export const validateEmail = (value) => {
     const regexExpression = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
     return regexExpression.test(value);
 };
-
 
 /* Validate password on registration - password must be:
 ^ - The password string will start this way.

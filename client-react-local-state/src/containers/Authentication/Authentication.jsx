@@ -46,7 +46,7 @@ class Authentication extends Component {
         this.setState({ [`${textBoxType}Text`]: textBoxValue });
     }
 
-    // Handle the submit click buttin on the login / registration form.
+    // Handle the submit click button on the login / registration form.
     handleOnLoginRegisterClick = (e) => {
         e.preventDefault();
         switch (this.state.mode) {
