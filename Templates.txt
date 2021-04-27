@@ -18,6 +18,6 @@ React.js
 -Change bind logic *, Proptype order *, default values *, change from "ClickHandler" to "handleClick" *, indexes of files *, fix spell mistakes. *
 -Add component child of full details of photo. *
 -Change logo to default one. *
--Copy a final version to create a version with Redux saga.
--After creating a copy of this client, Create another copy and remove the redux packages from package.json.
--Upload All to GitHub + Backups + DiskOnKey.
+-Copy a final version to create a version with Redux saga. *
+-After creating a copy of this client, Create another copy and remove the redux packages from package.json. *
+-Upload All to GitHub + Backups + DiskOnKey. *
