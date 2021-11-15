@@ -8,12 +8,13 @@ Clone the project to your computer.
 
 ### Prerequisites
 
-You'll need to install VS Code, Node, and clone the project, run npm i + npm start.
+You'll need to install VS Code, Node, and clone the project, run 'npm i' + 'npm start'.
 
 ## Built With
 
 * [Node.JS](https://nodejs.org/en/) - The web framework used - server side.
 * [React.JS](https://reactjs.org/) - The web framework used - client side.
+* [Git](https://git-scm.com) - Source management.
 
 ## Contributing
 
@@ -33,4 +34,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
-This application has an UNLICENSED License.
+This application has an UNLICENSED license.
