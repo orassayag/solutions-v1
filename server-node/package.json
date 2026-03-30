@@ -2,7 +2,7 @@
   "name": "server-node",
   "version": "1.0.0",
   "private": false,
-  "description": "",
+  "description": "Express.js REST API server that fetches and serves photo data with caching, CORS support, and environment-based configuration",
   "repository": {
     "type": "git",
     "url": "git://github.com/orassayag/solutions-v1.git"
@@ -11,9 +11,18 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "express",
+    "rest-api",
+    "nodejs",
+    "caching",
+    "cors",
+    "winston",
+    "api-template",
+    "backend"
+  ],
+  "author": "Or Assayag <orassayag@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
     "cors": "^2.8.5",

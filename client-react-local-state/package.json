@@ -2,10 +2,25 @@
   "name": "client-react-local-state",
   "version": "0.1.0",
   "private": false,
+  "description": "React.js single-page application with local state management, API integration, and modern component architecture",
   "repository": {
     "type": "git",
     "url": "git://github.com/orassayag/solutions-v1.git"
   },
+  "keywords": [
+    "react",
+    "reactjs",
+    "spa",
+    "single-page-application",
+    "axios",
+    "react-router",
+    "webpack",
+    "babel",
+    "frontend",
+    "local-state"
+  ],
+  "author": "Or Assayag <orassayag@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@babel/core": "7.1.0",
     "@svgr/webpack": "2.4.1",
